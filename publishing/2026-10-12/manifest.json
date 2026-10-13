@@ -1,0 +1,185 @@
+{
+  "site": "EcommerceVirtualAssistant",
+  "canonicalDomain": "https://ecommercevirtualassistant.com",
+  "repository": "coolifystealthagents/ecommerce-virtual-assistant",
+  "branch": "main",
+  "baseSha": "31ce5a02929aadbe4adade64a4efa68e594534c6",
+  "publicationDate": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "registryPaths": [
+    "lib/october12BlogPosts.ts",
+    "lib/october12ResearchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "components/ResearchSidebar.tsx"
+  ],
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "product-variant-source-of-truth",
+      "title": "Keep Product Variant Records Tied to a Source of Truth",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/product-variant-source-of-truth.svg",
+      "route": "/blog/product-variant-source-of-truth"
+    },
+    {
+      "section": "Blog",
+      "slug": "marketplace-listing-suppression-handoff",
+      "title": "Build a Marketplace Listing Suppression Handoff",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/marketplace-listing-suppression-handoff.svg",
+      "route": "/blog/marketplace-listing-suppression-handoff"
+    },
+    {
+      "section": "Blog",
+      "slug": "order-address-change-verification",
+      "title": "Verify Order Address Changes Before Fulfillment",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/order-address-change-verification.svg",
+      "route": "/blog/order-address-change-verification"
+    },
+    {
+      "section": "Blog",
+      "slug": "oversell-exception-reconciliation",
+      "title": "Reconcile Oversell Exceptions Across Sales Channels",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/oversell-exception-reconciliation.svg",
+      "route": "/blog/oversell-exception-reconciliation"
+    },
+    {
+      "section": "Blog",
+      "slug": "return-reason-evidence-capture",
+      "title": "Capture Return Reasons Without Rewriting the Customer",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/return-reason-evidence-capture.svg",
+      "route": "/blog/return-reason-evidence-capture"
+    },
+    {
+      "section": "Blog",
+      "slug": "refund-approval-boundary",
+      "title": "Separate Refund Preparation From Approval",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/refund-approval-boundary.svg",
+      "route": "/blog/refund-approval-boundary"
+    },
+    {
+      "section": "Blog",
+      "slug": "damaged-parcel-carrier-claim-packet",
+      "title": "Assemble a Damaged Parcel Carrier Claim Packet",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/damaged-parcel-carrier-claim-packet.svg",
+      "route": "/blog/damaged-parcel-carrier-claim-packet"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-size-question-routing",
+      "title": "Route Product Fit and Size Questions to Approved Guidance",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/customer-size-question-routing.svg",
+      "route": "/blog/customer-size-question-routing"
+    },
+    {
+      "section": "Blog",
+      "slug": "promotion-stack-exception-log",
+      "title": "Log Promotion Stack Exceptions Without Inventing Discounts",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/promotion-stack-exception-log.svg",
+      "route": "/blog/promotion-stack-exception-log"
+    },
+    {
+      "section": "Blog",
+      "slug": "supplier-eta-change-custody",
+      "title": "Keep Supplier ETA Changes Traceable",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/supplier-eta-change-custody.svg",
+      "route": "/blog/supplier-eta-change-custody"
+    },
+    {
+      "section": "Blog",
+      "slug": "ecommerce-customer-data-export-handoff",
+      "title": "Control Customer Data Export Handoffs",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/ecommerce-customer-data-export-handoff.svg",
+      "route": "/blog/ecommerce-customer-data-export-handoff"
+    },
+    {
+      "section": "Blog",
+      "slug": "commerce-platform-outage-reconciliation",
+      "title": "Reconcile Commerce Records After a Platform Outage",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/commerce-platform-outage-reconciliation.svg",
+      "route": "/blog/commerce-platform-outage-reconciliation"
+    },
+    {
+      "section": "Research",
+      "slug": "inventory-availability-cross-channel-agreement-study",
+      "title": "Inventory Availability Agreement Across Sales Channels",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/inventory-availability-cross-channel-agreement-study.svg",
+      "route": "/research/inventory-availability-cross-channel-agreement-study"
+    },
+    {
+      "section": "Research",
+      "slug": "order-status-event-lineage-study",
+      "title": "Order Status Event Lineage Completeness",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/order-status-event-lineage-study.svg",
+      "route": "/research/order-status-event-lineage-study"
+    },
+    {
+      "section": "Research",
+      "slug": "return-reason-reviewer-agreement-study",
+      "title": "Reviewer Agreement on Ecommerce Return Reasons",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/return-reason-reviewer-agreement-study.svg",
+      "route": "/research/return-reason-reviewer-agreement-study"
+    },
+    {
+      "section": "Research",
+      "slug": "address-change-verification-adherence-study",
+      "title": "Adherence to Verification for Order Address Changes",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/address-change-verification-adherence-study.svg",
+      "route": "/research/address-change-verification-adherence-study"
+    },
+    {
+      "section": "Research",
+      "slug": "catalog-attribute-source-lineage-study",
+      "title": "Catalog Attribute Source Lineage Completeness",
+      "publicationDate": "2026-10-12",
+      "sourcePath": "lib/october12ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-12/catalog-attribute-source-lineage-study.svg",
+      "route": "/research/catalog-attribute-source-lineage-study"
+    }
+  ]
+}
