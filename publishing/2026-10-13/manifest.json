@@ -1,0 +1,188 @@
+{
+  "site": "EcommerceVirtualAssistant",
+  "canonicalDomain": "https://ecommercevirtualassistant.com",
+  "repository": "coolifystealthagents/ecommerce-virtual-assistant",
+  "branch": "main",
+  "baseSha": "1cfa39e3d6f4b1ec4ccfc95b501e3d4403d4ef46",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "registryPaths": [
+    "lib/october13BlogPosts.ts",
+    "lib/october13ResearchPosts.ts",
+    "lib/content.ts"
+  ],
+  "routePaths": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexPaths": [
+    "app/blog/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sidebarPaths": [
+    "app/blog/[slug]/page.tsx",
+    "components/ResearchSidebar.tsx"
+  ],
+  "sitemapPaths": [
+    "app/sitemap.ts"
+  ],
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "sku-alias-merge-review",
+      "title": "Review SKU Aliases Before Merging Catalog Records",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/sku-alias-merge-review.svg",
+      "route": "/blog/sku-alias-merge-review"
+    },
+    {
+      "section": "Blog",
+      "slug": "preorder-release-evidence",
+      "title": "Release Preorders From Verified Inventory Evidence",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/preorder-release-evidence.svg",
+      "route": "/blog/preorder-release-evidence"
+    },
+    {
+      "section": "Blog",
+      "slug": "subscription-skip-custody",
+      "title": "Keep Subscription Skip Requests in a Verifiable Queue",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/subscription-skip-custody.svg",
+      "route": "/blog/subscription-skip-custody"
+    },
+    {
+      "section": "Blog",
+      "slug": "gift-card-liability-handoff",
+      "title": "Handoff Gift Card Balance Exceptions With a Complete Trail",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/gift-card-liability-handoff.svg",
+      "route": "/blog/gift-card-liability-handoff"
+    },
+    {
+      "section": "Blog",
+      "slug": "bundle-component-substitution",
+      "title": "Control Bundle Component Substitutions Before Fulfillment",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/bundle-component-substitution.svg",
+      "route": "/blog/bundle-component-substitution"
+    },
+    {
+      "section": "Blog",
+      "slug": "chargeback-evidence-versioning",
+      "title": "Version Chargeback Evidence Before Submission",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/chargeback-evidence-versioning.svg",
+      "route": "/blog/chargeback-evidence-versioning"
+    },
+    {
+      "section": "Blog",
+      "slug": "backorder-notice-approval",
+      "title": "Approve Backorder Notices From Current Commitments",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/backorder-notice-approval.svg",
+      "route": "/blog/backorder-notice-approval"
+    },
+    {
+      "section": "Blog",
+      "slug": "cross-border-duties-note",
+      "title": "Document Cross-Border Duty Assumptions Without Promising Outcomes",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/cross-border-duties-note.svg",
+      "route": "/blog/cross-border-duties-note"
+    },
+    {
+      "section": "Blog",
+      "slug": "warehouse-short-pick-reconciliation",
+      "title": "Reconcile Warehouse Short Picks Before Customer Updates",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/warehouse-short-pick-reconciliation.svg",
+      "route": "/blog/warehouse-short-pick-reconciliation"
+    },
+    {
+      "section": "Blog",
+      "slug": "replacement-order-linkage",
+      "title": "Link Replacement Orders to the Original Service Decision",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/replacement-order-linkage.svg",
+      "route": "/blog/replacement-order-linkage"
+    },
+    {
+      "section": "Blog",
+      "slug": "product-recall-customer-list",
+      "title": "Build Product Recall Contact Lists From Traceable Order Data",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/product-recall-customer-list.svg",
+      "route": "/blog/product-recall-customer-list"
+    },
+    {
+      "section": "Blog",
+      "slug": "marketplace-payout-variance",
+      "title": "Escalate Marketplace Payout Variances With Reconciled Evidence",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13BlogPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/marketplace-payout-variance.svg",
+      "route": "/blog/marketplace-payout-variance"
+    },
+    {
+      "section": "Research",
+      "slug": "inventory-reservation-lag-study",
+      "title": "Inventory Reservation Lag Across Commerce Systems",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/inventory-reservation-lag-study.svg",
+      "route": "/research/inventory-reservation-lag-study"
+    },
+    {
+      "section": "Research",
+      "slug": "refund-status-message-concordance",
+      "title": "Concordance Between Refund Events and Customer Status Messages",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/refund-status-message-concordance.svg",
+      "route": "/research/refund-status-message-concordance"
+    },
+    {
+      "section": "Research",
+      "slug": "listing-suppression-recovery-time",
+      "title": "Time to Recovery After Marketplace Listing Suppression",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/listing-suppression-recovery-time.svg",
+      "route": "/research/listing-suppression-recovery-time"
+    },
+    {
+      "section": "Research",
+      "slug": "return-photo-evidence-completeness",
+      "title": "Completeness of Photo Evidence in Damage Return Reviews",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/return-photo-evidence-completeness.svg",
+      "route": "/research/return-photo-evidence-completeness"
+    },
+    {
+      "section": "Research",
+      "slug": "subscription-change-execution-reliability",
+      "title": "Execution Reliability for Subscription Change Requests",
+      "publicationDate": "2026-10-13",
+      "sourcePath": "lib/october13ResearchPosts.ts",
+      "thumbnailPath": "public/thumbnails/october-13/subscription-change-execution-reliability.svg",
+      "route": "/research/subscription-change-execution-reliability"
+    }
+  ]
+}
