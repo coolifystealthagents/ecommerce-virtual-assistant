@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { deliverLeadToAcr } from '../../../lib/acr-lead-delivery';
 import { sendLeadFallbackToMattermost } from '../../../lib/lead-fallback-mattermost';
 
 const personalDomains = new Set(['gmail.com','yahoo.com','hotmail.com','outlook.com','icloud.com','aol.com','proton.me','protonmail.com']);
@@ -90,7 +91,7 @@ export async function POST(request: Request) {
       if (!forwarded.ok) console.error('[lead-submit] primary endpoint returned', forwarded.status);
     } catch (error) { console.error('[lead-submit] primary delivery failed', error); }
     finally { clearTimeout(timeout); }
-  } else console.error('[lead-submit] ACR_LEAD_ENDPOINT is not configured');
+  } else delivered = await deliverLeadToAcr(safePayload);
 
   if (!delivered) delivered = await sendLeadFallbackToMattermost({ name: [firstName, lastName].join(' '), email, phone, business: company, companyWebsite, message, companySize, positions, referral, pageUrl: safePayload.page_url, userAgent: clean(request.headers.get('user-agent'), 500) });
   if (!delivered) return reject('We could not confirm delivery. Please try again in a few minutes.', 503);
