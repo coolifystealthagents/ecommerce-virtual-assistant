@@ -9,6 +9,7 @@ const readOptional = (path, fallback = '') => {
 };
 
 const shell = read('components/SiteChrome.tsx');
+const primaryNav = read('components/PrimaryNav.tsx');
 const layout = read('app/layout.tsx');
 const contact = read('app/contact-us/page.tsx');
 const contactCss = read('app/contact-us/contact.css');
@@ -33,11 +34,17 @@ function countMatches(value, expression) {
 test('global shell has one subsidiary identity and literal parent attribution in header and footer', () => {
   assert.match(shell, /Powered by StealthAgents/g);
   assert.equal(countMatches(shell, /<ParentAttribution/g), 2);
-  assert.match(shell, /Home/);
-  assert.match(shell, /Services/);
-  assert.match(shell, /Contact Us/);
-  const primaryNav = shell.match(/<nav aria-label="Primary navigation">([\s\S]*?)<\/nav>/)?.[1] || '';
-  assert.deepEqual([...primaryNav.matchAll(/<Link href="([^"]+)">([^<]+)<\/Link>/g)].map((match) => [match[1], match[2]]), [['/', 'Home'], ['/services', 'Services'], ['/contact-us', 'Contact Us']]);
+  assert.match(primaryNav, /Home/);
+  assert.match(primaryNav, /Services/);
+  assert.match(primaryNav, /Contact Us/);
+  assert.match(shell, /<PrimaryNav\s*\/>/);
+  assert.deepEqual([...primaryNav.matchAll(/href:\s*'([^']+)'\s*,\s*label:\s*'([^']+)'/g)].map((match) => [match[1], match[2]]), [['/', 'Home'], ['/services', 'Services'], ['/contact-us', 'Contact Us']]);
+  assert.match(primaryNav, /usePathname/);
+  assert.match(primaryNav, /aria-current/);
+  assert.match(primaryNav, /pathname\.startsWith\(`\$\{href\}\/`\)/);
+  assert.match(primaryNav, /current === 'exact' \? 'page' : 'location'/);
+  assert.match(globals, /\.site-header nav a\[aria-current\]/);
+  assert.match(globals, /\.site-header nav a:active/);
   assert.doesNotMatch(shell, /TimedLeadModal|lead-modal-seen|setTimeout/);
   assert.match(layout, /skip-link/);
   assert.match(layout, /<main id="main-content" tabIndex=\{-1\}>/);

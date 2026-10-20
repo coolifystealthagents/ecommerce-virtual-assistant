@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { site } from '@/lib/site';
 import { ArrowIcon } from './Icons';
+import { PrimaryNav } from './PrimaryNav';
 
 const ParentAttribution = ({ inverse = false }: { inverse?: boolean }) => (
   <a className={`parent-attribution${inverse ? ' inverse' : ''}`} href="https://stealthagents.com/" rel="noopener noreferrer">
@@ -13,7 +14,7 @@ export function Header() {
   return <header className="site-header">
     <div className="header-inner">
       <Link className="brand" href="/" aria-label={`${site.name} home`}><Image src="/logo.svg" alt="" width={44} height={44} priority /><span>{site.name}</span></Link>
-      <nav aria-label="Primary navigation"><Link href="/">Home</Link><Link href="/services">Services</Link><Link href="/contact-us">Contact Us</Link></nav>
+      <PrimaryNav />
       <div className="persistent-parent-attribution"><ParentAttribution /></div><div className="header-actions"><Link id="cta-global-header-bookcall" className="button compact primary" href="/contact-us">Book a free call <ArrowIcon /></Link></div>
     </div>
   </header>;
