@@ -1,7 +1,7 @@
 'use server';
 
 const SITE_ID = 'ecommerce-virtual-assistant';
-export interface FallbackLeadPayload { name: string; email: string; phone: string; business?: string; message?: string; companySize?: string; positions?: string; referral?: string; pageUrl: string; userAgent?: string; }
+export interface FallbackLeadPayload { name: string; email: string; phone: string; business?: string; companyWebsite?: string; message?: string; companySize?: string; positions?: string; referral?: string; pageUrl: string; userAgent?: string; }
 
 export async function sendLeadFallbackToMattermost(lead: FallbackLeadPayload): Promise<boolean> {
   const fallbackWebhook = process.env.SITE_MATTERMOST_FALLBACK_WEBHOOK_URL;
@@ -11,7 +11,7 @@ export async function sendLeadFallbackToMattermost(lead: FallbackLeadPayload): P
     `**[SITE-DIRECT:${SITE_ID}] New lead — ${escapeMd(lead.name || lead.email || lead.phone || 'unknown')}**`,
     `_Primary lead delivery was unavailable; this message is the confirmed site fallback_`, '', '| Field | Value |', '|---|---|',
     `| Site | ${escapeMd(SITE_ID)} |`, `| Name | ${escapeMd(lead.name) || '_(empty)_'} |`, `| Email | ${escapeMd(lead.email) || '_(empty)_'} |`,
-    `| Phone | ${escapeMd(lead.phone) || '_(empty)_'} |`, `| Business | ${escapeMd(lead.business) || '-'} |`,
+    `| Phone | ${escapeMd(lead.phone) || '_(empty)_'} |`, `| Business | ${escapeMd(lead.business) || '-'} |`, `| Company website | ${escapeMd(lead.companyWebsite) || '-'} |`,
     `| Company size | ${escapeMd(lead.companySize) || '-'} |`, `| Positions | ${escapeMd(lead.positions) || '-'} |`,
     `| Referral | ${escapeMd(lead.referral) || '-'} |`, `| Page | ${escapeMd(lead.pageUrl) || '-'} |`, `| Time | ${new Date().toISOString()} |`, '',
     lead.message ? `**Message:**\n> ${escapeMd(lead.message).replace(/\n/g, '\n> ')}` : '',

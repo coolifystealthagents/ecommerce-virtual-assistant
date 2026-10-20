@@ -64,21 +64,21 @@ export async function POST(request: Request) {
   if (form.get('website_url')) return NextResponse.json({ ok: false, ignored: true });
 
   const source = clean(form.get('source'), 100);
-  const full = source.startsWith('contact-page');
+  if (source !== 'contact-page-consultation') return reject('Invalid submission source.');
   const firstName = clean(form.get('first_name'), 100);
   const lastName = clean(form.get('last_name'), 100);
-  const legacyName = clean(form.get('name'), 160);
   const email = clean(form.get('email'), 254).toLowerCase();
   const company = clean(form.get('company'), 180);
+  const companyWebsite = clean(form.get('company_website'), 500);
   const companySize = clean(form.get('company_size'), 80);
   const positions = clean(form.get('positions_to_fill'), 80);
   const referral = clean(form.get('referral_source'), 120);
   const phone = clean(form.get('phone'), 60);
   const message = clean(form.get('message'), 2_500);
-  if (!/^\S+@\S+\.\S+$/.test(email) || (full ? (!firstName || !lastName || !company || !companySize || !positions || !referral) : !legacyName)) return reject('Please complete every required field.');
-  if (full && personalDomains.has(email.split('@')[1])) return reject('Please use your business email address.');
+  if (!/^\S+@\S+\.\S+$/.test(email) || !firstName || !lastName || !company || !companySize || !positions || !referral) return reject('Please complete every required field.');
+  if (personalDomains.has(email.split('@')[1])) return reject('Please use your business email address.');
 
-  const safePayload = { source, first_name: firstName, last_name: lastName, name: legacyName, email, company, company_size: companySize, positions_to_fill: positions, referral_source: referral, phone_country: clean(form.get('phone_country'), 20), phone, message, page_url: clean(form.get('_page_url'), 500) || clean(request.headers.get('referer'), 500) };
+  const safePayload = { source, first_name: firstName, last_name: lastName, email, company, company_website: companyWebsite, company_size: companySize, positions_to_fill: positions, referral_source: referral, phone_country: clean(form.get('phone_country'), 20), phone, message, page_url: clean(form.get('_page_url'), 500) || clean(request.headers.get('referer'), 500) };
   let delivered = false;
   const endpoint = process.env.ACR_LEAD_ENDPOINT;
   if (endpoint) {
@@ -92,7 +92,9 @@ export async function POST(request: Request) {
     finally { clearTimeout(timeout); }
   } else console.error('[lead-submit] ACR_LEAD_ENDPOINT is not configured');
 
-  if (!delivered) delivered = await sendLeadFallbackToMattermost({ name: [firstName, lastName].filter(Boolean).join(' ') || legacyName, email, phone, business: company, message, companySize, positions, referral, pageUrl: safePayload.page_url, userAgent: clean(request.headers.get('user-agent'), 500) });
+  if (!delivered) delivered = await sendLeadFallbackToMattermost({ name: [firstName, lastName].join(' '), email, phone, business: company, companyWebsite, message, companySize, positions, referral, pageUrl: safePayload.page_url, userAgent: clean(request.headers.get('user-agent'), 500) });
   if (!delivered) return reject('We could not confirm delivery. Please try again in a few minutes.', 503);
-  return NextResponse.json({ ok: true });
+  const response = NextResponse.json({ ok: true });
+  response.cookies.set('eva_lead_confirmed', 'confirmed', { httpOnly: true, secure: true, sameSite: 'strict', path: '/thank-you', maxAge: 15 * 60 });
+  return response;
 }
