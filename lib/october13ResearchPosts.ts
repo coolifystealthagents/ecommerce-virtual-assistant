@@ -83,43 +83,43 @@ export const october13ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "US Census Bureau — Monthly Retail Trade",
+        "label": "US Census Bureau  -  Monthly Retail Trade",
         "url": "https://www.census.gov/retail/index.html"
       },
       {
-        "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+        "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
         "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
       },
       {
-        "label": "Federal Trade Commission — Business Guidance Resources",
+        "label": "Federal Trade Commission  -  Business Guidance Resources",
         "url": "https://www.ftc.gov/business-guidance/resources"
       },
       {
-        "label": "NIST — Cybersecurity Framework",
+        "label": "NIST  -  Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "CISA — Secure Our World",
+        "label": "CISA  -  Secure Our World",
         "url": "https://www.cisa.gov/secure-our-world"
       },
       {
-        "label": "USPS — Shipping Restrictions",
+        "label": "USPS  -  Shipping Restrictions",
         "url": "https://www.usps.com/ship/shipping-restrictions.htm"
       },
       {
-        "label": "U.S. Customs and Border Protection — E-Commerce",
+        "label": "U.S. Customs and Border Protection  -  E-Commerce",
         "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
       },
       {
-        "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+        "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
         "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
       }
     ]
@@ -206,43 +206,43 @@ export const october13ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "US Census Bureau — Monthly Retail Trade",
+        "label": "US Census Bureau  -  Monthly Retail Trade",
         "url": "https://www.census.gov/retail/index.html"
       },
       {
-        "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+        "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
         "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
       },
       {
-        "label": "Federal Trade Commission — Business Guidance Resources",
+        "label": "Federal Trade Commission  -  Business Guidance Resources",
         "url": "https://www.ftc.gov/business-guidance/resources"
       },
       {
-        "label": "NIST — Cybersecurity Framework",
+        "label": "NIST  -  Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "CISA — Secure Our World",
+        "label": "CISA  -  Secure Our World",
         "url": "https://www.cisa.gov/secure-our-world"
       },
       {
-        "label": "USPS — Shipping Restrictions",
+        "label": "USPS  -  Shipping Restrictions",
         "url": "https://www.usps.com/ship/shipping-restrictions.htm"
       },
       {
-        "label": "U.S. Customs and Border Protection — E-Commerce",
+        "label": "U.S. Customs and Border Protection  -  E-Commerce",
         "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
       },
       {
-        "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+        "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
         "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
       }
     ]
@@ -329,43 +329,43 @@ export const october13ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "US Census Bureau — Monthly Retail Trade",
+        "label": "US Census Bureau  -  Monthly Retail Trade",
         "url": "https://www.census.gov/retail/index.html"
       },
       {
-        "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+        "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
         "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
       },
       {
-        "label": "Federal Trade Commission — Business Guidance Resources",
+        "label": "Federal Trade Commission  -  Business Guidance Resources",
         "url": "https://www.ftc.gov/business-guidance/resources"
       },
       {
-        "label": "NIST — Cybersecurity Framework",
+        "label": "NIST  -  Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "CISA — Secure Our World",
+        "label": "CISA  -  Secure Our World",
         "url": "https://www.cisa.gov/secure-our-world"
       },
       {
-        "label": "USPS — Shipping Restrictions",
+        "label": "USPS  -  Shipping Restrictions",
         "url": "https://www.usps.com/ship/shipping-restrictions.htm"
       },
       {
-        "label": "U.S. Customs and Border Protection — E-Commerce",
+        "label": "U.S. Customs and Border Protection  -  E-Commerce",
         "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
       },
       {
-        "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+        "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
         "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
       }
     ]
@@ -452,43 +452,43 @@ export const october13ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "US Census Bureau — Monthly Retail Trade",
+        "label": "US Census Bureau  -  Monthly Retail Trade",
         "url": "https://www.census.gov/retail/index.html"
       },
       {
-        "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+        "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
         "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
       },
       {
-        "label": "Federal Trade Commission — Business Guidance Resources",
+        "label": "Federal Trade Commission  -  Business Guidance Resources",
         "url": "https://www.ftc.gov/business-guidance/resources"
       },
       {
-        "label": "NIST — Cybersecurity Framework",
+        "label": "NIST  -  Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "CISA — Secure Our World",
+        "label": "CISA  -  Secure Our World",
         "url": "https://www.cisa.gov/secure-our-world"
       },
       {
-        "label": "USPS — Shipping Restrictions",
+        "label": "USPS  -  Shipping Restrictions",
         "url": "https://www.usps.com/ship/shipping-restrictions.htm"
       },
       {
-        "label": "U.S. Customs and Border Protection — E-Commerce",
+        "label": "U.S. Customs and Border Protection  -  E-Commerce",
         "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
       },
       {
-        "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+        "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
         "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
       }
     ]
@@ -575,43 +575,43 @@ export const october13ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "US Census Bureau — Monthly Retail Trade",
+        "label": "US Census Bureau  -  Monthly Retail Trade",
         "url": "https://www.census.gov/retail/index.html"
       },
       {
-        "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+        "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
         "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
       },
       {
-        "label": "Federal Trade Commission — Business Guidance Resources",
+        "label": "Federal Trade Commission  -  Business Guidance Resources",
         "url": "https://www.ftc.gov/business-guidance/resources"
       },
       {
-        "label": "NIST — Cybersecurity Framework",
+        "label": "NIST  -  Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "CISA — Secure Our World",
+        "label": "CISA  -  Secure Our World",
         "url": "https://www.cisa.gov/secure-our-world"
       },
       {
-        "label": "USPS — Shipping Restrictions",
+        "label": "USPS  -  Shipping Restrictions",
         "url": "https://www.usps.com/ship/shipping-restrictions.htm"
       },
       {
-        "label": "U.S. Customs and Border Protection — E-Commerce",
+        "label": "U.S. Customs and Border Protection  -  E-Commerce",
         "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
       },
       {
-        "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+        "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
         "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
       }
     ]

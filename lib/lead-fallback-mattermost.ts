@@ -8,7 +8,7 @@ export async function sendLeadFallbackToMattermost(lead: FallbackLeadPayload): P
   if (!fallbackWebhook) { console.error('[lead-fallback] no durable fallback is configured'); return false; }
   if (looksLikeGarbagePiiLead(lead)) { console.warn('[lead-fallback] garbage_pii_lead_submit; dropped'); return false; }
   const lines = [
-    `**[SITE-DIRECT:${SITE_ID}] New lead — ${escapeMd(lead.name || lead.email || lead.phone || 'unknown')}**`,
+    `**[SITE-DIRECT:${SITE_ID}] New lead  -  ${escapeMd(lead.name || lead.email || lead.phone || 'unknown')}**`,
     `_Primary lead delivery was unavailable; this message is the confirmed site fallback_`, '', '| Field | Value |', '|---|---|',
     `| Site | ${escapeMd(SITE_ID)} |`, `| Name | ${escapeMd(lead.name) || '_(empty)_'} |`, `| Email | ${escapeMd(lead.email) || '_(empty)_'} |`,
     `| Phone | ${escapeMd(lead.phone) || '_(empty)_'} |`, `| Business | ${escapeMd(lead.business) || '-'} |`, `| Company website | ${escapeMd(lead.companyWebsite) || '-'} |`,

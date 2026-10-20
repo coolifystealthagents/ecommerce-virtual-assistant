@@ -84,7 +84,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/preorder-release-evidence",
     "source": {
-      "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+      "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
       "url": "https://www.census.gov/retail/ecommerce.html"
     }
   },
@@ -171,7 +171,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/subscription-skip-custody",
     "source": {
-      "label": "US Census Bureau — Monthly Retail Trade",
+      "label": "US Census Bureau  -  Monthly Retail Trade",
       "url": "https://www.census.gov/retail/index.html"
     }
   },
@@ -258,7 +258,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/gift-card-liability-handoff",
     "source": {
-      "label": "Federal Trade Commission — Mail, Internet, or Telephone Order Merchandise Rule",
+      "label": "Federal Trade Commission  -  Mail, Internet, or Telephone Order Merchandise Rule",
       "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
     }
   },
@@ -345,7 +345,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/bundle-component-substitution",
     "source": {
-      "label": "Federal Trade Commission — Business Guidance Resources",
+      "label": "Federal Trade Commission  -  Business Guidance Resources",
       "url": "https://www.ftc.gov/business-guidance/resources"
     }
   },
@@ -432,7 +432,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/chargeback-evidence-versioning",
     "source": {
-      "label": "NIST — Cybersecurity Framework",
+      "label": "NIST  -  Cybersecurity Framework",
       "url": "https://www.nist.gov/cyberframework"
     }
   },
@@ -519,7 +519,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/backorder-notice-approval",
     "source": {
-      "label": "NIST — Privacy Framework",
+      "label": "NIST  -  Privacy Framework",
       "url": "https://www.nist.gov/privacy-framework"
     }
   },
@@ -606,7 +606,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/cross-border-duties-note",
     "source": {
-      "label": "CISA — Secure Our World",
+      "label": "CISA  -  Secure Our World",
       "url": "https://www.cisa.gov/secure-our-world"
     }
   },
@@ -693,7 +693,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/warehouse-short-pick-reconciliation",
     "source": {
-      "label": "USPS — Shipping Restrictions",
+      "label": "USPS  -  Shipping Restrictions",
       "url": "https://www.usps.com/ship/shipping-restrictions.htm"
     }
   },
@@ -780,7 +780,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/replacement-order-linkage",
     "source": {
-      "label": "U.S. Customs and Border Protection — E-Commerce",
+      "label": "U.S. Customs and Border Protection  -  E-Commerce",
       "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce"
     }
   },
@@ -867,7 +867,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/returns-support",
     "internalSibling": "/blog/product-recall-customer-list",
     "source": {
-      "label": "Consumer Financial Protection Bureau — Credit Card Disputes",
+      "label": "Consumer Financial Protection Bureau  -  Credit Card Disputes",
       "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-a-charge-on-my-credit-card-bill-en-61/"
     }
   },
@@ -954,7 +954,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/marketplace-payout-variance",
     "source": {
-      "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+      "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
       "url": "https://www.census.gov/retail/ecommerce.html"
     }
   },
@@ -1041,7 +1041,7 @@ export const october13BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/sku-alias-merge-review",
     "source": {
-      "label": "US Census Bureau — Monthly Retail Trade",
+      "label": "US Census Bureau  -  Monthly Retail Trade",
       "url": "https://www.census.gov/retail/index.html"
     }
   }

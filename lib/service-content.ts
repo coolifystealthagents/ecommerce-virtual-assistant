@@ -45,7 +45,7 @@ export const serviceContent: ServiceContent[] = [
     "qualityControls": [
       "Use field-level source links rather than relying on memory or chat history.",
       "Sample completed records by category and newness, with closer review for high-risk products.",
-      "Treat blank, contradictory, or unverified source data as an exception—not an invitation to guess.",
+      "Treat blank, contradictory, or unverified source data as an exception - not an invitation to guess.",
       "Reconcile the published page against the approved record after imports or bulk changes."
     ],
     "scenarios": [
@@ -145,7 +145,7 @@ export const serviceContent: ServiceContent[] = [
       },
       {
         "q": "Which metric is most useful?",
-        "a": "Track exception age, completeness of evidence, reopen rate, and time to the accountable owner—not task volume alone."
+        "a": "Track exception age, completeness of evidence, reopen rate, and time to the accountable owner - not task volume alone."
       }
     ]
   },
@@ -334,7 +334,7 @@ export const serviceContent: ServiceContent[] = [
       "Score a sample for accuracy, policy fit, verification, tone, documentation, and correct escalation.",
       "Review reopened and transferred conversations to find weak knowledge or unclear ownership.",
       "Keep templates current and prohibit copying sensitive information into unapproved tools.",
-      "Measure resolution quality and promise completion—not replies per hour alone."
+      "Measure resolution quality and promise completion - not replies per hour alone."
     ],
     "scenarios": [
       {

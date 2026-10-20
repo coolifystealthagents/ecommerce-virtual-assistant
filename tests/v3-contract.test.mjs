@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import test from 'node:test';
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -17,6 +17,7 @@ const servicePage = read('app/services/[slug]/page.tsx');
 const blogPage = read('app/blog/[slug]/page.tsx');
 const researchPage = read('app/research/[slug]/page.tsx');
 const leadRoute = read('app/api/submit-lead/route.ts');
+const trackingRoute = read('app/ingest/track/route.ts');
 const fallback = read('lib/lead-fallback-mattermost.ts');
 const thankYou = read('app/thank-you/page.tsx');
 const privacy = read('app/privacy/page.tsx');
@@ -35,6 +36,8 @@ test('global shell has one subsidiary identity and literal parent attribution in
   assert.match(shell, /Home/);
   assert.match(shell, /Services/);
   assert.match(shell, /Contact Us/);
+  const primaryNav = shell.match(/<nav aria-label="Primary navigation">([\s\S]*?)<\/nav>/)?.[1] || '';
+  assert.deepEqual([...primaryNav.matchAll(/<Link href="([^"]+)">([^<]+)<\/Link>/g)].map((match) => [match[1], match[2]]), [['/', 'Home'], ['/services', 'Services'], ['/contact-us', 'Contact Us']]);
   assert.doesNotMatch(shell, /TimedLeadModal|lead-modal-seen|setTimeout/);
   assert.match(layout, /skip-link/);
   assert.match(layout, /<main id="main-content" tabIndex=\{-1\}>/);
@@ -51,6 +54,7 @@ test('contact page owns the required two-step conversion and parent-brand sequen
   assert.match(contact, /StealthAgents reviews/);
   assert.match(contact, /ReviewsMarquee/);
   assert.match(contact, /Official team, Bacolod/);
+  assert.match(contact, /className="official-team-plate"[\s\S]*Official team, Bacolod/);
   assert.match(contact, /stealth-agents-team\.webp/);
   assert.match(contact, /stealth-agents-logo-black\.png/);
   assert.doesNotMatch(contact, /go\.oncehub\.com|booking-frame|consultation-calendar/);
@@ -95,6 +99,7 @@ test('all editorial detail renderers use a complete article shell', () => {
   assert.match(sidebar, /IntersectionObserver/);
   assert.match(sidebar, /aria-current/);
   assert.match(sidebar, /Related/);
+  assert.match(globals, /\.sidebar\{[^}]*max-height:calc\(100vh[^}]*overflow-y:auto/);
 });
 
 test('main route families have dedicated hero imagery and unified logo files', () => {
@@ -129,6 +134,11 @@ test('lead endpoint rejects untrusted or unconfirmed submissions', () => {
   assert.match(leadRoute, /ok:\s*false[^}]*ignored:\s*true/s);
   assert.match(leadRoute, /await sendLeadFallbackToMattermost/);
   assert.doesNotMatch(leadRoute, /void sendLeadFallbackToMattermost/);
+  assert.match(trackingRoute, /allowedOrigins/);
+  assert.match(trackingRoute, /application\/json/);
+  assert.match(trackingRoute, /request\.body\?\.getReader/);
+  assert.match(trackingRoute, /MAX_RATE_KEYS/);
+  assert.doesNotMatch(trackingRoute, /request\.text\(\)/);
 });
 
 test('canonical redirects and security headers are configured', () => {
@@ -143,4 +153,12 @@ test('commercial layouts do not retain decorative labels or promotional overlays
   assert.doesNotMatch(commercial, />0[1-9]</);
   assert.doesNotMatch(commercial, /service-number|step-card[^\n]*<span>/);
   assert.doesNotMatch(commercial, /modal-backdrop|exit-intent|lead-modal/);
+});
+
+test('public runtime source contains no forbidden dash punctuation', () => {
+  const walk = (url) => readdirSync(url, { withFileTypes: true }).flatMap((entry) => entry.isDirectory()
+    ? walk(new URL(`${entry.name}/`, url))
+    : /\.(?:ts|tsx|json)$/.test(entry.name) ? [readFileSync(new URL(entry.name, url), 'utf8')] : []);
+  const runtime = ['app', 'components', 'lib'].flatMap((directory) => walk(new URL(`../${directory}/`, import.meta.url))).join('\n');
+  assert.doesNotMatch(runtime, /[\u2014\u2013]/);
 });

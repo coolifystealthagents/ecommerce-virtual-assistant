@@ -63,7 +63,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/order-exception-queue",
     "source": {
-      "label": "FTC — Advertising and Marketing Basics",
+      "label": "FTC  -  Advertising and Marketing Basics",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -129,7 +129,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/returns-handoff-record",
     "source": {
-      "label": "FTC — Mail, Internet, or Telephone Order Merchandise Rule",
+      "label": "FTC  -  Mail, Internet, or Telephone Order Merchandise Rule",
       "url": "https://www.ftc.gov/legal-library/browse/rules/mail-internet-or-telephone-order-merchandise-rule"
     }
   },
@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/returns-support",
     "internalSibling": "/blog/customer-support-escalation",
     "source": {
-      "label": "FTC — Business Guidance Resources",
+      "label": "FTC  -  Business Guidance Resources",
       "url": "https://www.ftc.gov/business-guidance/resources"
     }
   },
@@ -261,7 +261,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/product-listing-qa-checklist",
     "source": {
-      "label": "FTC — Advertising and Marketing Basics",
+      "label": "FTC  -  Advertising and Marketing Basics",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -327,7 +327,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/inventory-variance-packet",
     "source": {
-      "label": "FTC — Privacy and Security Guidance",
+      "label": "FTC  -  Privacy and Security Guidance",
       "url": "https://www.ftc.gov/business-guidance/privacy-security"
     }
   },
@@ -393,7 +393,7 @@ export const blogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/order-exception-queue",
     "source": {
-      "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+      "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
       "url": "https://www.census.gov/retail/ecommerce.html"
     }
   }
@@ -447,15 +447,15 @@ export const researchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "FTC — Privacy and Security Guidance",
+        "label": "FTC  -  Privacy and Security Guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       }
     ]
@@ -507,15 +507,15 @@ export const researchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "FTC — Privacy and Security Guidance",
+        "label": "FTC  -  Privacy and Security Guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       }
     ]
@@ -567,15 +567,15 @@ export const researchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "FTC — Privacy and Security Guidance",
+        "label": "FTC  -  Privacy and Security Guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       }
     ]
@@ -627,15 +627,15 @@ export const researchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "US Census Bureau — Quarterly Retail E-Commerce Sales",
+        "label": "US Census Bureau  -  Quarterly Retail E-Commerce Sales",
         "url": "https://www.census.gov/retail/ecommerce.html"
       },
       {
-        "label": "FTC — Privacy and Security Guidance",
+        "label": "FTC  -  Privacy and Security Guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security"
       },
       {
-        "label": "NIST — Privacy Framework",
+        "label": "NIST  -  Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       }
     ]
