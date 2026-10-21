@@ -26,6 +26,8 @@ const thankYou = read('app/thank-you/page.tsx');
 const privacy = read('app/privacy/page.tsx');
 const about = read('app/about/page.tsx');
 const nextConfig = read('next.config.mjs');
+const proxy = read('proxy.ts');
+const canonicalRequest = read('lib/canonical-request.ts');
 const globals = read('app/globals.css');
 const reviews = JSON.parse(readOptional('app/data/review-provenance.json', '{"source":"","records":[]}'));
 
@@ -161,6 +163,11 @@ test('canonical redirects and security headers are configured', () => {
   assert.match(nextConfig, /Strict-Transport-Security/);
   assert.match(nextConfig, /Content-Security-Policy/);
   assert.match(nextConfig, /www\.ecommercevirtualassistant\.com/);
+  assert.match(proxy, /canonicalRedirectUrl/);
+  assert.match(canonicalRequest, /cf-visitor/);
+  assert.match(canonicalRequest, /x-forwarded-proto/);
+  assert.match(canonicalRequest, /destination\.protocol\s*=\s*['"]https:/);
+  assert.match(canonicalRequest, /destination\.host\s*=\s*APEX_HOST/);
 });
 
 test('commercial layouts do not retain decorative labels or promotional overlays', () => {
