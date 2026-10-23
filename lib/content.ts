@@ -1,6 +1,8 @@
 import type { BlogPost, ResearchPost } from './types';
+import { october22BlogBatch, october22ResearchBatch } from './october22Batch';
 
 export const blogPosts: BlogPost[] = [
+  ...october22BlogBatch,
   {
     "slug": "product-listing-qa-checklist",
     "title": "A Product Listing QA Checklist That Preserves Source Truth",
@@ -400,6 +402,7 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const researchPosts: ResearchPost[] = [
+  ...october22ResearchBatch,
   {
     "slug": "inventory-reservation-lag-study",
     "title": "Protocol: Inventory Reservation Lag Across Commerce Systems",
