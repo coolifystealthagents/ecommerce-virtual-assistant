@@ -1,14 +1,16 @@
 import type { BlogPost, ResearchPost } from './types';
 import { october22BlogBatch, october22ResearchBatch } from './october22Batch';
 import { october26BlogBatch } from './october26Blog';
+import { october28BlogBatch } from './october28Blog';
 import { october27BlogBatch } from './october27Blog';
 import { october26ResearchBatch } from './october26Research';
+import { october28ResearchBatch } from './october28Research';
 import { october27ResearchBatch } from './october27Research';
 import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
-  ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch,
+  ...october28BlogBatch, ...october27BlogBatch, ...october26BlogBatch, ...october25BlogBatch, ...october22BlogBatch,
   {
     "slug": "product-listing-qa-checklist",
     "title": "A Product Listing QA Checklist That Preserves Source Truth",
@@ -408,7 +410,7 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const researchPosts: ResearchPost[] = [
-  ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
+  ...october28ResearchBatch, ...october27ResearchBatch, ...october26ResearchBatch, ...october25ResearchBatch, ...october22ResearchBatch,
   {
     "slug": "inventory-reservation-lag-study",
     "title": "Protocol: Inventory Reservation Lag Across Commerce Systems",
