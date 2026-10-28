@@ -62,7 +62,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the product feed audit: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the product feed audit: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For audit a product feed before a seasonal launch, the review lead keeps a 1-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the product feed audit: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -152,7 +152,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the backorder notification: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the backorder notification: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For triage a backorder notification queue, the review lead keeps a 2-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the backorder notification: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -242,7 +242,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the return label promise: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the return label promise: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For keep return label promises aligned with warehouse receipt, the review lead keeps a 3-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the return label promise: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -332,7 +332,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the variant image mismatch: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the variant image mismatch: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For review variant image mismatches before publish, the review lead keeps a 4-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the variant image mismatch: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -422,7 +422,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the marketplace price change: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the marketplace price change: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For set a marketplace price change approval boundary, the review lead keeps a 5-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the marketplace price change: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -512,7 +512,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the lost package claim: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the lost package claim: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For trace a lost package claim without guessing, the review lead keeps a 6-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the lost package claim: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -602,7 +602,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the duplicate SKU cleanup: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the duplicate SKU cleanup: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For clean duplicate skus after a catalog migration, the review lead keeps a 7-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the duplicate SKU cleanup: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -692,7 +692,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the pre-order date change: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the pre-order date change: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For write a pre-order date-change notice, the review lead keeps a 8-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the pre-order date change: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -781,7 +781,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the gift card balance exception: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the gift card balance exception: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For check gift card balance exceptions at checkout, the review lead keeps a 9-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the gift card balance exception: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -870,7 +870,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the subscription cancellation save: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the subscription cancellation save: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For review subscription cancellation saves against policy, the review lead keeps a 10-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the subscription cancellation save: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -960,7 +960,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the fraud hold message: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the fraud hold message: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For handle a fraud hold message without exposing risk rules, the review lead keeps a 11-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the fraud hold message: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
@@ -1050,7 +1050,7 @@ export const october28BlogBatch: readonly BlogPost[] = [
       {
         "heading": "A weekly review that changes one thing",
         "paragraphs": [
-          "Hold one short weekly review of the warehouse transfer handoff: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked.",
+          "Hold one short weekly review of the warehouse transfer handoff: the oldest item, the most repeated exception, and one case that was corrected. End with one process change, one owner, and one date to check whether the change worked. For test a warehouse transfer handoff during peak volume, the review lead keeps a 12-case snapshot from the 2026-10-28 order export and notes the exact SKU or order reference changed.",
           "Use the same sample rule each week. A stable sample shows movement; a fresh convenience sample shows only that someone looked. Keep the source link and the customer confirmation with the record so a second reviewer can repeat the check.",
           "Record what would reopen the warehouse transfer handoff: a customer reply, a carrier update, a corrected SKU, or a failed warehouse receipt. Leave that note with the item so the next reviewer starts from evidence rather than memory.",
           "Check the destination, not only the activity. A notice marked sent, a return marked received, or a feed marked uploaded should be verified in the system that owns the result.",
