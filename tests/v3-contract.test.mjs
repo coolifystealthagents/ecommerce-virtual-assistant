@@ -66,7 +66,7 @@ test('contact page owns the required two-step conversion and parent-brand sequen
   assert.match(contact, /ReviewsMarquee/);
   assert.match(contact, /Official team, Bacolod/);
   assert.match(contact, /className="official-team-plate"[\s\S]*Official team, Bacolod/);
-  assert.match(contact, /stealth-agents-team\.webp/);
+  assert.match(contact, /team-bacolod\.jpg/);
   assert.match(contact, /stealth-agents-logo-black\.png/);
   assert.doesNotMatch(contact, /go\.oncehub\.com|booking-frame|consultation-calendar/);
   assert.match(contactCss, /grid-template-columns/);

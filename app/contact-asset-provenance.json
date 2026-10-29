@@ -1,0 +1,30 @@
+{
+  "teamPhoto": {
+    "source": "https://stealthagents.com/team-bacolod.jpg",
+    "localPath": "/images/team-bacolod.jpg",
+    "width": 953,
+    "height": 540,
+    "sha256": "e80f0e94a80f5ddceba7fbcf723774689e47089bce7981c9f2bdb4205ea52767",
+    "approval": "Explicitly approved user-provided StealthAgents source URL; exact original bytes independently verified"
+  },
+  "logo": {
+    "source": "https://stealthagents.com/stealth-agents-logo-black.png",
+    "localPath": "/images/stealth-agents-logo-black.png",
+    "width": 149,
+    "height": 50,
+    "sha256": "bc5b225c1bf37d71ab282bc6d59b519e717263a8ecddd2423225a56d47416e45",
+    "approval": "Explicitly approved user-provided StealthAgents source URL; exact original bytes independently verified"
+  },
+  "managedServiceEvidence": {
+    "source": "https://stealthagents.com/services",
+    "approvedEvidence": "Existing first-party Stealth Agents website",
+    "quote": "A managed virtual assistant agency gives you role scoping, vetted candidates, onboarding guidance, performance oversight, and replacement support in one place.",
+    "supports": [
+      "role scoping",
+      "vetted candidates",
+      "onboarding guidance",
+      "performance oversight",
+      "replacement support"
+    ]
+  }
+}
