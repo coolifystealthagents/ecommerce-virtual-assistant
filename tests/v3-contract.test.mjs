@@ -136,8 +136,8 @@ test('lead endpoint rejects untrusted or unconfirmed submissions', () => {
   assert.match(leadRoute, /company_website/);
   assert.match(fallback, /companyWebsite/);
   assert.match(leadRoute, /eva_lead_confirmed/);
-  assert.match(thankYou, /eva_lead_confirmed/);
-  assert.match(thankYou, /redirect\(['"]\/contact-us/);
+  assert.doesNotMatch(thankYou, /cookies\(|redirect\(/);
+  assert.match(thankYou, /OnceHubEmbed/);
   assert.match(privacy, /phone|telephone/i);
   assert.match(privacy, /company website/i);
   assert.match(privacy, /Mattermost/);
