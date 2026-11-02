@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-02",
+ "blog": [
+  "ecommercevirtualassistant-product-data-intake-2026-11-02",
+  "ecommercevirtualassistant-order-exception-queue-2026-11-02",
+  "ecommercevirtualassistant-returns-evidence-2026-11-02",
+  "ecommercevirtualassistant-inventory-sync-2026-11-02",
+  "ecommercevirtualassistant-listing-qa-2026-11-02",
+  "ecommercevirtualassistant-message-triage-2026-11-02",
+  "ecommercevirtualassistant-supplier-followup-2026-11-02",
+  "ecommercevirtualassistant-fulfillment-handoff-2026-11-02",
+  "ecommercevirtualassistant-promo-calendar-2026-11-02",
+  "ecommercevirtualassistant-review-response-2026-11-02",
+  "ecommercevirtualassistant-catalog-image-qa-2026-11-02",
+  "ecommercevirtualassistant-refund-reconciliation-2026-11-02"
+ ],
+ "research": [
+  "ecommercevirtualassistant-product-data-completeness-study-2026-11-02",
+  "ecommercevirtualassistant-order-exception-delay-study-2026-11-02",
+  "ecommercevirtualassistant-returns-processing-lag-study-2026-11-02",
+  "ecommercevirtualassistant-inventory-sync-error-study-2026-11-02",
+  "ecommercevirtualassistant-listing-qa-failure-study-2026-11-02"
+ ]
+}
