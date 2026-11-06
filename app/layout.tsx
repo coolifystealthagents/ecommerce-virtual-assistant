@@ -21,5 +21,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <a className="skip-link" href="#main-content">Skip to main content</a><Header /><main id="main-content" tabIndex={-1}>{children}</main><Footer />
     <Script id="organization-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
     <Script id="acr-tracker-config" strategy="beforeInteractive">{`window.ACR_TRACKER_CONFIG={siteId:'${site.siteId}',endpoint:'/ingest/track',debug:false};`}</Script><Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
+    <Script
+      id="databull-analytics"
+      src="https://databull.stealthagents.us/js/script.js"
+      data-website-id="dc_fgoiqo5f9t8jv5"
+      data-domain="ecommercevirtualassistant.com"
+      strategy="afterInteractive"
+    />
   </body></html>;
 }
