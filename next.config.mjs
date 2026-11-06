@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const securityHeaders = [
-  { key: 'Content-Security-Policy', value: "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none';  https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://cdn.oncehub.com;  https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-src https://go.oncehub.com; upgrade-insecure-requests" },
+  { key: 'Content-Security-Policy', value: "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; script-src https://databull.stealthagents.us 'self' 'unsafe-inline' https://acrtracking.stealthagents.us https://cdn.oncehub.com; connect-src https://databull.stealthagents.us 'self' https://acrtracking.stealthagents.us; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; frame-src https://go.oncehub.com; upgrade-insecure-requests" },
   { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
   { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
   { key: 'X-Content-Type-Options', value: 'nosniff' },
