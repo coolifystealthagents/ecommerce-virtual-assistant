@@ -5,7 +5,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Marketplace refund reconciliation variance",
     "summary": "A case-level study of marketplace refund reconciliation variance across a frozen order population and a dated evidence sample.",
     "cluster": "Marketplace finance",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of marketplace refund reconciliation variance records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-marketplace-refund-reconciliation-variance.png",
     "sections": [
@@ -82,7 +82,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Variation republish error rate",
     "summary": "A case-level study of variation republish error across a frozen order population and a dated evidence sample.",
     "cluster": "Catalog operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of variation republish error records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-variation-republish-error-rate.png",
     "sections": [
@@ -159,7 +159,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Drop-ship lead-time promise drift",
     "summary": "A case-level study of drop-ship lead-time drift across a frozen order population and a dated evidence sample.",
     "cluster": "Supplier operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of drop-ship lead-time drift records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-drop-ship-lead-time-promise-drift.png",
     "sections": [
@@ -236,7 +236,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Lost parcel claim recovery rate",
     "summary": "A case-level study of lost parcel claim recovery across a frozen order population and a dated evidence sample.",
     "cluster": "Dispute operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of lost parcel claim recovery records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-lost-parcel-claim-recovery-rate.png",
     "sections": [
@@ -313,7 +313,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Marketplace fee adjustment variance",
     "summary": "A case-level study of marketplace fee adjustment variance across a frozen order population and a dated evidence sample.",
     "cluster": "Marketplace finance",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of marketplace fee adjustment variance records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-marketplace-fee-adjustment-variance.png",
     "sections": [
@@ -390,7 +390,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Bundle pricing test coverage",
     "summary": "A case-level study of bundle pricing test coverage across a frozen order population and a dated evidence sample.",
     "cluster": "Promotion operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of bundle pricing test coverage records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-bundle-pricing-test-coverage.png",
     "sections": [
@@ -467,7 +467,7 @@ export const november07ResearchPosts: ResearchPost[] = [
     "title": "Return label refund timing",
     "summary": "A case-level study of return label refund timing across a frozen order population and a dated evidence sample.",
     "cluster": "Customer operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "finding": "A reproducible count of return label refund timing records missing a required field, reported with its window and exclusions.",
     "thumbnail": "/thumbnails/november-07/ecommerce-return-label-refund-timing.png",
     "sections": [

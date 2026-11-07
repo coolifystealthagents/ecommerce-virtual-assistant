@@ -5,7 +5,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Reconcile a marketplace refund with the payout",
     "description": "A bounded ecommerce operations guide to marketplace refund reconciliation, with explicit evidence, decision rights, and a verified close.",
     "category": "Marketplace finance",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-marketplace-refund-with-the-payout.png",
     "sections": [
@@ -84,7 +84,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Control a product variation change before republish",
     "description": "A bounded ecommerce operations guide to variation change control, with explicit evidence, decision rights, and a verified close.",
     "category": "Catalog support",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-control-a-product-variation-change-before-republish.png",
     "sections": [
@@ -163,7 +163,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Verify a drop-ship lead time",
     "description": "A bounded ecommerce operations guide to drop-ship lead time, with explicit evidence, decision rights, and a verified close.",
     "category": "Supplier coordination",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-verify-a-drop-ship-lead-time.png",
     "sections": [
@@ -242,7 +242,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Handle a lost parcel claim before the window closes",
     "description": "A bounded ecommerce operations guide to lost parcel claim, with explicit evidence, decision rights, and a verified close.",
     "category": "Dispute operations",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-handle-a-lost-parcel-claim-before-the-window-closes.png",
     "sections": [
@@ -321,7 +321,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Reconcile a marketplace fee adjustment",
     "description": "A bounded ecommerce operations guide to marketplace fee adjustment, with explicit evidence, decision rights, and a verified close.",
     "category": "Marketplace finance",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-marketplace-fee-adjustment.png",
     "sections": [
@@ -400,7 +400,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Control a promotional bundle price",
     "description": "A bounded ecommerce operations guide to bundle price control, with explicit evidence, decision rights, and a verified close.",
     "category": "Promotion support",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-control-a-promotional-bundle-price.png",
     "sections": [
@@ -479,7 +479,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Verify a return label refund before closing the case",
     "description": "A bounded ecommerce operations guide to return label refund, with explicit evidence, decision rights, and a verified close.",
     "category": "Customer support",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-verify-a-return-label-refund-before-closing-the-case.png",
     "sections": [
@@ -558,7 +558,7 @@ export const november07BlogPosts: BlogPost[] = [
     "title": "Standardize a catalog attribute update",
     "description": "A bounded ecommerce operations guide to catalog attribute update, with explicit evidence, decision rights, and a verified close.",
     "category": "Catalog support",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-07",
     "readTime": "9 min read",
     "thumbnail": "/thumbnails/november-07/ecommerce-standardize-a-catalog-attribute-update.png",
     "sections": [
