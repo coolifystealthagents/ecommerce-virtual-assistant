@@ -155,13 +155,13 @@ export const november07ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    "slug": "ecommerce-dropship-lead-time-drift",
+    "slug": "ecommerce-drop-ship-lead-time-promise-drift",
     "title": "Drop-ship lead-time promise drift",
     "summary": "A case-level study of drop-ship lead-time drift across a frozen order population and a dated evidence sample.",
     "cluster": "Supplier operations",
     "publishedAt": "2026-11-03",
     "finding": "A reproducible count of drop-ship lead-time drift records missing a required field, reported with its window and exclusions.",
-    "thumbnail": "/thumbnails/november-07/ecommerce-dropship-lead-time-drift.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-drop-ship-lead-time-promise-drift.png",
     "sections": [
       {
         "heading": "Question and decision scope",
@@ -232,13 +232,13 @@ export const november07ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    "slug": "ecommerce-lost-parcel-claim-recovery",
+    "slug": "ecommerce-lost-parcel-claim-recovery-rate",
     "title": "Lost parcel claim recovery rate",
     "summary": "A case-level study of lost parcel claim recovery across a frozen order population and a dated evidence sample.",
     "cluster": "Dispute operations",
     "publishedAt": "2026-11-03",
     "finding": "A reproducible count of lost parcel claim recovery records missing a required field, reported with its window and exclusions.",
-    "thumbnail": "/thumbnails/november-07/ecommerce-lost-parcel-claim-recovery.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-lost-parcel-claim-recovery-rate.png",
     "sections": [
       {
         "heading": "Question and decision scope",
@@ -309,13 +309,13 @@ export const november07ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    "slug": "ecommerce-fee-adjustment-variance",
+    "slug": "ecommerce-marketplace-fee-adjustment-variance",
     "title": "Marketplace fee adjustment variance",
     "summary": "A case-level study of marketplace fee adjustment variance across a frozen order population and a dated evidence sample.",
     "cluster": "Marketplace finance",
     "publishedAt": "2026-11-03",
     "finding": "A reproducible count of marketplace fee adjustment variance records missing a required field, reported with its window and exclusions.",
-    "thumbnail": "/thumbnails/november-07/ecommerce-fee-adjustment-variance.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-marketplace-fee-adjustment-variance.png",
     "sections": [
       {
         "heading": "Question and decision scope",
@@ -386,13 +386,13 @@ export const november07ResearchPosts: ResearchPost[] = [
     ]
   },
   {
-    "slug": "ecommerce-bundle-price-test-coverage",
+    "slug": "ecommerce-bundle-pricing-test-coverage",
     "title": "Bundle pricing test coverage",
     "summary": "A case-level study of bundle pricing test coverage across a frozen order population and a dated evidence sample.",
     "cluster": "Promotion operations",
     "publishedAt": "2026-11-03",
     "finding": "A reproducible count of bundle pricing test coverage records missing a required field, reported with its window and exclusions.",
-    "thumbnail": "/thumbnails/november-07/ecommerce-bundle-price-test-coverage.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-bundle-pricing-test-coverage.png",
     "sections": [
       {
         "heading": "Question and decision scope",

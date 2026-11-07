@@ -1,13 +1,13 @@
 import type { BlogPost } from './types';
 export const november07BlogPosts: BlogPost[] = [
   {
-    "slug": "ecommerce-reconcile-a-marketplace-refund",
+    "slug": "ecommerce-reconcile-a-marketplace-refund-with-the-payout",
     "title": "Reconcile a marketplace refund with the payout",
     "description": "A bounded ecommerce operations guide to marketplace refund reconciliation, with explicit evidence, decision rights, and a verified close.",
     "category": "Marketplace finance",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-marketplace-refund.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-marketplace-refund-with-the-payout.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -73,20 +73,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/marketplace-support",
-    "internalSibling": "/blog/ecommerce-control-a-variation-change",
+    "internalSibling": "/blog/ecommerce-control-a-product-variation-change-before-republish",
     "source": {
       "label": "U.S. Small Business Administration — manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
   {
-    "slug": "ecommerce-control-a-variation-change",
+    "slug": "ecommerce-control-a-product-variation-change-before-republish",
     "title": "Control a product variation change before republish",
     "description": "A bounded ecommerce operations guide to variation change control, with explicit evidence, decision rights, and a verified close.",
     "category": "Catalog support",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-control-a-variation-change.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-control-a-product-variation-change-before-republish.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -152,20 +152,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/marketplace-support",
-    "internalSibling": "/blog/ecommerce-verify-dropship-lead-time",
+    "internalSibling": "/blog/ecommerce-verify-a-drop-ship-lead-time",
     "source": {
       "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
   {
-    "slug": "ecommerce-verify-dropship-lead-time",
+    "slug": "ecommerce-verify-a-drop-ship-lead-time",
     "title": "Verify a drop-ship lead time",
     "description": "A bounded ecommerce operations guide to drop-ship lead time, with explicit evidence, decision rights, and a verified close.",
     "category": "Supplier coordination",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-verify-dropship-lead-time.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-verify-a-drop-ship-lead-time.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -231,20 +231,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/order-support",
-    "internalSibling": "/blog/ecommerce-handle-a-lost-parcel-claim",
+    "internalSibling": "/blog/ecommerce-handle-a-lost-parcel-claim-before-the-window-closes",
     "source": {
       "label": "U.S. Small Business Administration — manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
   {
-    "slug": "ecommerce-handle-a-lost-parcel-claim",
+    "slug": "ecommerce-handle-a-lost-parcel-claim-before-the-window-closes",
     "title": "Handle a lost parcel claim before the window closes",
     "description": "A bounded ecommerce operations guide to lost parcel claim, with explicit evidence, decision rights, and a verified close.",
     "category": "Dispute operations",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-handle-a-lost-parcel-claim.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-handle-a-lost-parcel-claim-before-the-window-closes.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -310,20 +310,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/customer-support",
-    "internalSibling": "/blog/ecommerce-reconcile-a-fee-adjustment",
+    "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-fee-adjustment",
     "source": {
       "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
   {
-    "slug": "ecommerce-reconcile-a-fee-adjustment",
+    "slug": "ecommerce-reconcile-a-marketplace-fee-adjustment",
     "title": "Reconcile a marketplace fee adjustment",
     "description": "A bounded ecommerce operations guide to marketplace fee adjustment, with explicit evidence, decision rights, and a verified close.",
     "category": "Marketplace finance",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-fee-adjustment.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-reconcile-a-marketplace-fee-adjustment.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -389,20 +389,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/marketplace-support",
-    "internalSibling": "/blog/ecommerce-control-a-bundle-price",
+    "internalSibling": "/blog/ecommerce-control-a-promotional-bundle-price",
     "source": {
       "label": "U.S. Small Business Administration — manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
   {
-    "slug": "ecommerce-control-a-bundle-price",
+    "slug": "ecommerce-control-a-promotional-bundle-price",
     "title": "Control a promotional bundle price",
     "description": "A bounded ecommerce operations guide to bundle price control, with explicit evidence, decision rights, and a verified close.",
     "category": "Promotion support",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-control-a-bundle-price.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-control-a-promotional-bundle-price.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -468,20 +468,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/marketplace-support",
-    "internalSibling": "/blog/ecommerce-verify-a-return-label-refund",
+    "internalSibling": "/blog/ecommerce-verify-a-return-label-refund-before-closing-the-case",
     "source": {
       "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
   {
-    "slug": "ecommerce-verify-a-return-label-refund",
+    "slug": "ecommerce-verify-a-return-label-refund-before-closing-the-case",
     "title": "Verify a return label refund before closing the case",
     "description": "A bounded ecommerce operations guide to return label refund, with explicit evidence, decision rights, and a verified close.",
     "category": "Customer support",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-verify-a-return-label-refund.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-verify-a-return-label-refund-before-closing-the-case.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -547,20 +547,20 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/customer-support",
-    "internalSibling": "/blog/ecommerce-standardize-catalog-attribute-update",
+    "internalSibling": "/blog/ecommerce-standardize-a-catalog-attribute-update",
     "source": {
       "label": "U.S. Small Business Administration — manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
   {
-    "slug": "ecommerce-standardize-catalog-attribute-update",
+    "slug": "ecommerce-standardize-a-catalog-attribute-update",
     "title": "Standardize a catalog attribute update",
     "description": "A bounded ecommerce operations guide to catalog attribute update, with explicit evidence, decision rights, and a verified close.",
     "category": "Catalog support",
     "publishedAt": "2026-11-03",
     "readTime": "9 min read",
-    "thumbnail": "/thumbnails/november-07/ecommerce-standardize-catalog-attribute-update.png",
+    "thumbnail": "/thumbnails/november-07/ecommerce-standardize-a-catalog-attribute-update.png",
     "sections": [
       {
         "heading": "Name the decision and the queue owner",
@@ -626,7 +626,7 @@ export const november07BlogPosts: BlogPost[] = [
       }
     ],
     "internalService": "/services/marketplace-support",
-    "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-refund",
+    "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-refund-with-the-payout",
     "source": {
       "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
