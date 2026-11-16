@@ -12,19 +12,20 @@
 /* Ecommerce optimization release: denser editorial rhythm and stable media frames. */
 main { overflow-x: clip; }
 .photo-media img { object-fit: cover !important; }
-.hero-visual.photo-media img { object-position: 58% center; }
-.services-photo img { object-position: 52% 46%; }
-.editorial-photo img { object-position: 50% 38%; }
+.hero-visual.photo-media img { object-position: 52% center; }
+.services-photo img { object-position: 50% 47%; }
+.blog-photo img { object-position: 54% center; }
+.research-photo img { object-position: 48% center; }
 
 @media (min-width: 1101px) {
   .home .hero {
-    height: calc(100svh - 138px);
-    min-height: 570px;
-    max-height: 680px;
+    height: calc(100svh - 178px);
+    min-height: 520px;
+    max-height: 620px;
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
   }
-  .home .hero-copy h1 { font-size: clamp(3.4rem, 5.35vw, 5.35rem); }
+  .home .hero-copy h1 { font-size: clamp(3.2rem, 4.5vw, 4.6rem); max-width: 680px; }
   .home .hero-body { margin: .8rem 0; }
   .home .hero-actions { margin: 1.25rem 0; }
   .home .hero-visual { min-height: 0; height: 100%; }

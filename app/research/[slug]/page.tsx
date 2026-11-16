@@ -11,12 +11,12 @@ const displayPublishedDate = (value: string) => new Intl.DateTimeFormat('en-US',
 
 const idFor = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export function generateStaticParams() { return researchPosts.map(({ slug }) => ({ slug })); }
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug } = await params; const p = researchBySlug(slug); return p ? { title: p.title, description: p.summary, alternates: { canonical: `/research/${p.slug}` }, openGraph: { type: 'article', publishedTime: p.publishedAt, images: p.thumbnail ? [p.thumbnail] : ['/images/research-evidence-desk.svg'] } } : {}; }
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug } = await params; const p = researchBySlug(slug); return p ? { title: p.title, description: p.summary, alternates: { canonical: `/research/${p.slug}` }, openGraph: { type: 'article', publishedTime: p.publishedAt, images: p.thumbnail ? [p.thumbnail] : ['/images/commerce/research-evidence-review.webp'] } } : {}; }
 
 export default async function ResearchPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params; const p = researchBySlug(slug); if (!p) notFound();
   const related = researchPosts.filter((item) => item.slug !== p.slug).slice(0, 3);
-  const heroImage = p.thumbnail || '/images/research-evidence-desk.svg';
+  const heroImage = p.thumbnail || '/images/commerce/research-evidence-review.webp';
   const sections = p.sections || [];
   const toc = [...sections.map((section) => ({ href: `#${idFor(section.heading)}`, label: section.heading })), { href: '#sources', label: 'Sources' }];
   const schema = { '@context': 'https://schema.org', '@type': 'ScholarlyArticle', headline: p.title, description: p.summary, datePublished: p.publishedAt, image: `https://${site.domain}${heroImage}`, author: { '@type': 'Organization', name: `${site.name} Research Desk` }, mainEntityOfPage: `https://${site.domain}/research/${p.slug}` };

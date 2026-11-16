@@ -9,7 +9,7 @@ test('homepage keeps its consultation CTA inside the bounded desktop first fold'
   const css = read('app/globals.css');
   assert.match(marketing, /id="cta-home-hero-bookcall"/);
   assert.match(marketing, /hero-visual photo-media/);
-  assert.match(css, /height: calc\(100svh - 138px\)/);
+  assert.match(css, /height: calc\(100svh - 178px\)/);
   assert.match(css, /commerce-ribbon \{ height: 46px/);
 });
 
@@ -46,10 +46,10 @@ test('article pages use one responsive table of contents implementation', () => 
 
 test('new hero asset references resolve inside public', () => {
   const assets = [
-    'public/images/stealth-agents-team.webp',
-    'public/images/team-bacolod.jpg',
-    'public/thumbnails/november-11/ecommercevirtualassistant-control-a-customer-warranty-registration-handoff.png',
-    'public/thumbnails/november-11/ecommercevirtualassistant-storage-fee-invoice-variance.png'
+    'public/images/commerce/home-ecommerce-packing.webp',
+    'public/images/commerce/services-order-operations.webp',
+    'public/images/commerce/blog-operations-analytics.webp',
+    'public/images/commerce/research-evidence-review.webp'
   ];
   for (const asset of assets) assert.equal(existsSync(new URL(`../${asset}`, import.meta.url)), true, asset);
 });

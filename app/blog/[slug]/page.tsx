@@ -11,12 +11,12 @@ const displayPublishedDate = (value: string) => new Intl.DateTimeFormat('en-US',
 
 const idFor = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export function generateStaticParams() { return blogPosts.map(({ slug }) => ({ slug })); }
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug } = await params; const p = blogBySlug(slug); return p ? { title: p.title, description: p.description, alternates: { canonical: `/blog/${p.slug}` }, openGraph: { type: 'article', publishedTime: p.publishedAt, images: p.thumbnail ? [p.thumbnail] : ['/images/blog-field-notes.svg'] } } : {}; }
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> { const { slug } = await params; const p = blogBySlug(slug); return p ? { title: p.title, description: p.description, alternates: { canonical: `/blog/${p.slug}` }, openGraph: { type: 'article', publishedTime: p.publishedAt, images: p.thumbnail ? [p.thumbnail] : ['/images/commerce/blog-operations-analytics.webp'] } } : {}; }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params; const p = blogBySlug(slug); if (!p) notFound();
   const related = blogPosts.filter((item) => item.slug !== p.slug).slice(0, 3);
-  const heroImage = p.thumbnail || '/images/blog-field-notes.svg';
+  const heroImage = p.thumbnail || '/images/commerce/blog-operations-analytics.webp';
   const toc = [...p.sections.map((section) => ({ href: `#${idFor(section.heading)}`, label: section.heading })), { href: '#questions', label: 'Common questions' }, { href: '#source', label: 'Source note' }];
   const schema = { '@context': 'https://schema.org', '@type': 'Article', headline: p.title, description: p.description, datePublished: p.publishedAt, dateModified: p.publishedAt, image: `https://${site.domain}${heroImage}`, author: { '@type': 'Organization', name: `${site.name} Editorial Team` }, publisher: { '@type': 'Organization', name: site.name, logo: { '@type': 'ImageObject', url: `https://${site.domain}/logo.svg` } }, mainEntityOfPage: `https://${site.domain}/blog/${p.slug}` };
   return <div>
