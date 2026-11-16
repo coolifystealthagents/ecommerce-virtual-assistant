@@ -22,6 +22,14 @@ test('index heroes use repository photography with useful alternative text', () 
   }
 });
 
+test('editorial index heroes keep copy and complete media frames within the desktop fold', () => {
+  const css = read('app/globals.css');
+  assert.match(css, /editorial-index-hero \{ grid-template-columns: minmax\(0, \.9fr\) minmax\(500px, 1\.1fr\)/);
+  assert.match(css, /editorial-index-hero h1 \{ max-width: 680px; font-size: clamp\(2\.8rem, 4\.45vw, 4rem\)/);
+  assert.match(css, /editorial-index-hero \.hero-actions \{ margin: 1\.25rem 0 0/);
+  assert.match(css, /editorial-index-hero \.split-hero-media \{ min-height: 0; aspect-ratio: 3 \/ 2/);
+});
+
 test('editorial listings share one landscape media component', () => {
   const component = read('components/EditorialCard.tsx');
   const css = read('app/globals.css');
