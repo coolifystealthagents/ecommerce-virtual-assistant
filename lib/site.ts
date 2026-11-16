@@ -18,8 +18,8 @@ export const site: SiteConfig = {
   "ink": "#11162a",
   "displayFont": "Futura",
   "bodyFont": "Avenir Next",
-  "heroImage": "/hero.png",
-  "heroAlt": "Colorful parcels, blank product cards, ribbons, and inventory blocks arranged in a graphic studio composition",
+  "heroImage": "/images/stealth-agents-team.webp",
+  "heroAlt": "Operations specialists reviewing ecommerce records together on laptops",
   "services": [
     {
       "slug": "product-listing-support",

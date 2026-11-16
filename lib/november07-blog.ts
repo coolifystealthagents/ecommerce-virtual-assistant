@@ -75,7 +75,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-control-a-product-variation-change-before-republish",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -154,7 +154,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-verify-a-drop-ship-lead-time",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -233,7 +233,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-handle-a-lost-parcel-claim-before-the-window-closes",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -312,7 +312,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-fee-adjustment",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -391,7 +391,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-control-a-promotional-bundle-price",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -470,7 +470,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-verify-a-return-label-refund-before-closing-the-case",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -549,7 +549,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-standardize-a-catalog-attribute-update",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -628,7 +628,7 @@ export const november07BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-refund-with-the-payout",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

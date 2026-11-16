@@ -87,7 +87,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-control-a-payment-dispute-evidence-packet",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -178,7 +178,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-audit-a-marketplace-price-rule-change",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-reconcile-inventory-sync-after-a-restock",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -360,7 +360,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-review-a-product-review-request-for-compliance",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-track-an-abandoned-cart-exception",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -542,7 +542,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-verify-a-sales-tax-nexus-change-before-collection",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-close-a-fulfillment-sla-exception",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -724,7 +724,7 @@ export const november06BlogPosts: BlogPost[] = [
     "internalService": "/services/order-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-return-label-mismatch-before-the-refund",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

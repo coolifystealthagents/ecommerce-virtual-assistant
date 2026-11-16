@@ -87,7 +87,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-product-identifier-change-before-catalog-update",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -178,7 +178,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-replenishment-plan-change-before-a-limited-time-promotion",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-review-a-marketplace-account-health-appeal-evidence-pack",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -360,7 +360,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-marketplace-storage-fee-invoice-against-the-inventory-ledger",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-cross-border-duty-estimate-before-checkout",
     "source": {
-      "label": "U.S. Government Accountability Office — internal control standards",
+      "label": "U.S. Government Accountability Office - internal control standards",
       "url": "https://www.gao.gov/greenbook"
     }
   },
@@ -542,7 +542,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-customer-warranty-registration-handoff",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-listing-compliance-attestation-before-category-renewal",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -724,7 +724,7 @@ export const november11BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-marketplace-reimbursement-for-damaged-returns",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

@@ -76,15 +76,15 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Cybersecurity Framework",
+        "label": "U.S. National Institute of Standards and Technology - Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
@@ -92,11 +92,11 @@ export const november03ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]
@@ -177,7 +177,7 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -185,19 +185,19 @@ export const november03ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Cybersecurity Framework",
+        "label": "U.S. National Institute of Standards and Technology - Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Federal Trade Commission — data security guidance",
+        "label": "U.S. Federal Trade Commission - data security guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]
@@ -282,23 +282,23 @@ export const november03ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. Federal Trade Commission — data security guidance",
+        "label": "U.S. Federal Trade Commission - data security guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Cybersecurity Framework",
+        "label": "U.S. National Institute of Standards and Technology - Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]
@@ -379,23 +379,23 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Privacy Framework",
+        "label": "U.S. National Institute of Standards and Technology - Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
@@ -480,19 +480,19 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — data security guidance",
+        "label": "U.S. Federal Trade Commission - data security guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Cybersecurity Framework",
+        "label": "U.S. National Institute of Standards and Technology - Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
@@ -500,7 +500,7 @@ export const november03ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]
@@ -581,27 +581,27 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Privacy Framework",
+        "label": "U.S. National Institute of Standards and Technology - Privacy Framework",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. Federal Trade Commission — data security guidance",
+        "label": "U.S. Federal Trade Commission - data security guidance",
         "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]
@@ -682,15 +682,15 @@ export const november03ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -698,11 +698,11 @@ export const november03ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. National Institute of Standards and Technology — Cybersecurity Framework",
+        "label": "U.S. National Institute of Standards and Technology - Cybersecurity Framework",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       }
     ]

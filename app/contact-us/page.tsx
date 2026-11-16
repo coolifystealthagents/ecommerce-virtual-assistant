@@ -8,6 +8,7 @@ import { ArrowIcon, CheckIcon } from '@/components/Icons';
 import { serviceContent } from '@/lib/service-content';
 import { site } from '@/lib/site';
 import './contact.css';
+import './contact-optimization.css';
 
 export const metadata: Metadata = { title: 'Contact Us | Free Ecommerce Staffing Consultation', description: 'Book a free consultation about remote ecommerce operations support. Tell us about your workflow, systems, and hiring priorities.', alternates: { canonical: '/contact-us' } };
 

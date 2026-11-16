@@ -8,3 +8,106 @@
   .mobile-toc nav { display: flex; flex-direction: column; gap: .35rem; padding: .6rem 0 .2rem; }
   .mobile-toc a { font-size: 15px; line-height: 1.45; }
 }
+
+/* Ecommerce optimization release: denser editorial rhythm and stable media frames. */
+main { overflow-x: clip; }
+.photo-media img { object-fit: cover !important; }
+.hero-visual.photo-media img { object-position: 58% center; }
+.services-photo img { object-position: 52% 46%; }
+.editorial-photo img { object-position: 50% 38%; }
+
+@media (min-width: 1101px) {
+  .home .hero {
+    height: calc(100svh - 138px);
+    min-height: 570px;
+    max-height: 680px;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+  .home .hero-copy h1 { font-size: clamp(3.4rem, 5.35vw, 5.35rem); }
+  .home .hero-body { margin: .8rem 0; }
+  .home .hero-actions { margin: 1.25rem 0; }
+  .home .hero-visual { min-height: 0; height: 100%; }
+}
+
+.commerce-ribbon { height: 46px; padding: 0; overflow: hidden; align-items: center; }
+.commerce-ribbon-track { display: flex; width: max-content; align-items: center; gap: 3.2rem; padding-left: 3.2rem; animation: commerce-ribbon 32s linear infinite; }
+.commerce-ribbon-track span { white-space: nowrap; }
+@keyframes commerce-ribbon { to { transform: translateX(calc(-50% - 1.6rem)); } }
+
+.section { padding-top: clamp(4rem, 6.5vw, 6.75rem); padding-bottom: clamp(4rem, 6.5vw, 6.75rem); }
+.section-heading { margin-bottom: clamp(2rem, 4vw, 3.25rem); }
+.services { background: #fff; }
+.home-service-card { padding: 0; min-height: 0; }
+.home-service-media { position: relative; aspect-ratio: 16 / 9; background: var(--mist); overflow: hidden; }
+.home-service-media img { object-fit: cover; }
+.home-service-copy { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1.6rem; }
+.home-service-copy .service-kicker { margin-bottom: .7rem; }
+.home-service-copy .text-link { margin-top: auto; }
+
+.team-proof { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: center; background: var(--yellow); }
+.team-proof-media { position: relative; min-height: 460px; overflow: hidden; }
+.team-proof-media img { object-fit: cover; object-position: center; }
+.team-proof > div:last-child { max-width: 660px; }
+.team-proof ul { padding-left: 1.15rem; margin: 1.5rem 0; }
+.team-proof li { margin: .6rem 0; }
+
+.editorial-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.editorial-card { display: flex; min-width: 0; flex-direction: column; background: #fff; border: 1px solid var(--line); transition: transform .18s, border-color .18s; }
+.editorial-card:hover { transform: translateY(-3px); border-color: var(--blue); }
+.editorial-card-media { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: var(--mist); }
+.editorial-card-media img { object-fit: cover; object-position: center; }
+.editorial-card-body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1.35rem; }
+.editorial-label { color: var(--blue); font-size: .66rem; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; }
+.editorial-card h2 { margin: .65rem 0; font-size: clamp(1.25rem, 1.65vw, 1.55rem); line-height: 1.12; letter-spacing: -.025em; }
+.editorial-card p { margin: .45rem 0; color: #4f5b72; font-size: .92rem; }
+.editorial-card .meta { font-size: .75rem; }
+.editorial-card .text-link { margin-top: auto; padding-top: 1rem; font-size: .8rem; }
+.editorial-card-compact .editorial-card-media { aspect-ratio: 2.05 / 1; }
+.editorial-card-compact .editorial-card-body { padding: 1.2rem; }
+.editorial-library { padding-top: clamp(3.5rem, 5vw, 5.5rem); }
+
+.services-index .split-hero,
+.editorial-index-hero { padding-top: clamp(3rem, 5vw, 5.5rem); padding-bottom: clamp(3rem, 5vw, 5.5rem); }
+.services-index .split-hero-media,
+.editorial-index-hero .split-hero-media { min-height: clamp(440px, 48vw, 590px); }
+.service-collection { padding-top: clamp(3.5rem, 5vw, 5.5rem); }
+.services-operating-model { background: var(--mist); }
+.service-decision-band { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(3rem, 7vw, 7rem); background: #fff; }
+.decision-list p { margin: 0; padding: 1.25rem 0; border-top: 1px solid var(--line); }
+.related-services .service-card-visual h3 { margin-left: 1.5rem; margin-right: 1.5rem; font-size: 1.55rem; }
+
+.article-header { padding-top: clamp(2.5rem, 4vw, 4.5rem); padding-bottom: clamp(2.5rem, 4vw, 4.5rem); }
+.article-header h1 { font-size: clamp(2.75rem, 4.8vw, 5.3rem); }
+.article-header .split-hero-media { min-height: clamp(390px, 42vw, 540px); }
+.article-layout { grid-template-columns: minmax(0, 820px) minmax(260px, 320px); gap: clamp(2.5rem, 5vw, 5rem); }
+.article-sidebar { top: 108px; max-height: calc(100dvh - 124px); }
+.prose section { scroll-margin-top: 120px; }
+
+@media (max-width: 1100px) {
+  .editorial-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .team-proof, .service-decision-band { grid-template-columns: 1fr; }
+  .team-proof-media { min-height: 420px; }
+  .article-layout .sidebar-toc { display: none; }
+  .mobile-toc { display: block; margin: 1rem 0 1.25rem; padding: .75rem 1rem; border: 1px solid #d8dee8; border-radius: 10px; background: #fff; }
+  .mobile-toc summary { cursor: pointer; font-weight: 700; font-size: 15px; }
+  .mobile-toc nav { display: flex; flex-direction: column; gap: .35rem; padding: .6rem 0 .2rem; }
+  .mobile-toc a { font-size: 15px; line-height: 1.45; }
+}
+
+@media (max-width: 700px) {
+  .editorial-grid { grid-template-columns: 1fr; }
+  .home .hero { padding-top: 2.25rem; }
+  .home .hero-copy h1 { font-size: clamp(2.8rem, 15vw, 4.3rem); }
+  .hero-visual { min-height: 360px; }
+  .team-proof-media { min-height: 320px; }
+  .services-index .split-hero-media,
+  .editorial-index-hero .split-hero-media,
+  .article-header .split-hero-media { min-height: 330px; }
+  .editorial-card-body { padding: 1.15rem; }
+  .commerce-ribbon-track { gap: 2.3rem; padding-left: 2.3rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .commerce-ribbon-track { animation: none; transform: none; }
+}

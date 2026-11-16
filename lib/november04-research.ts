@@ -80,7 +80,7 @@ export const november04ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -165,11 +165,11 @@ export const november04ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "FTC — advertising and marketing guidance",
+        "label": "FTC - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -258,7 +258,7 @@ export const november04ResearchPosts: ResearchPost[] = [
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -343,11 +343,11 @@ export const november04ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "FTC — advertising and marketing guidance",
+        "label": "FTC - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -432,11 +432,11 @@ export const november04ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -521,11 +521,11 @@ export const november04ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "FTC — advertising and marketing guidance",
+        "label": "FTC - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -614,7 +614,7 @@ export const november04ResearchPosts: ResearchPost[] = [
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {

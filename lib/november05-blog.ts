@@ -87,7 +87,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-control-a-customer-address-change-after-order",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -178,7 +178,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/ecommerce-handle-a-supplier-drop-ship-delay",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommerce-keep-a-product-recall-notice-log",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -360,7 +360,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-track-a-marketplace-penalty-appeal",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-standardize-a-storefront-search-redirect",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -542,7 +542,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-gift-card-liability",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-audit-a-subscription-order-skip",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -724,7 +724,7 @@ export const november05BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-verify-a-marketplace-listing-variation-before-publish",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

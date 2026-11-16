@@ -64,15 +64,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -141,15 +141,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -218,15 +218,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -299,11 +299,11 @@ export const november07ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -372,15 +372,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -449,15 +449,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -526,15 +526,15 @@ export const november07ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. National Archives — records management",
+        "label": "U.S. National Archives - records management",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]

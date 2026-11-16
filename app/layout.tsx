@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: { default: `${site.name} | Ecommerce Operations Support`, template: `%s | ${site.name}` },
   description: site.heroBody,
   applicationName: site.name,
-  openGraph: { type: 'website', siteName: site.name, title: `${site.name} | Ecommerce Operations Support`, description: site.heroBody, url: `https://${site.domain}`, images: [{ url: '/hero.png', width: 1536, height: 1024, alt: site.heroAlt }] },
-  twitter: { card: 'summary_large_image', title: site.name, description: site.heroBody, images: ['/hero.png'] },
+  openGraph: { type: 'website', siteName: site.name, title: `${site.name} | Ecommerce Operations Support`, description: site.heroBody, url: `https://${site.domain}`, images: [{ url: site.heroImage, width: 1600, height: 1067, alt: site.heroAlt }] },
+  twitter: { card: 'summary_large_image', title: site.name, description: site.heroBody, images: [site.heroImage] },
   alternates: { canonical: '/' },
   icons: { icon: '/icon.svg' }
 };

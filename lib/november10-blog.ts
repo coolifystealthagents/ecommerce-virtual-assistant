@@ -87,7 +87,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-product-safety-recall-takedown-before-order-release",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -178,7 +178,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-multi-channel-inventory-sync-before-oversell",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-review-a-negative-feedback-removal-request",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -360,7 +360,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-coupon-redemption-funding-split",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-dropship-supplier-price-change-before-repricing",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -542,7 +542,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-marketplace-returnless-refund-decision",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-brand-registry-enrollment-evidence-pack",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -724,7 +724,7 @@ export const november10BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-marketplace-reimbursement-for-lost-inbound-units",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

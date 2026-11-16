@@ -87,7 +87,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/returns-support",
     "internalSibling": "/blog/ecommerce-control-a-storefront-price-change-across-channels",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -178,7 +178,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-handle-a-supplier-stockout-substitution",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommerce-keep-a-review-response-log-tied-to-the-order",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -360,7 +360,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-fee-adjustment",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-standardize-a-bundle-listing-change",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -542,7 +542,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-track-a-preorder-release-date-change",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/ecommerce-audit-a-customer-account-merge",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -724,7 +724,7 @@ export const november04BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-verify-a-marketplace-return-label-before-issuing-a-refund",
     "source": {
-      "label": "FTC — advertising and marketing guidance",
+      "label": "FTC - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

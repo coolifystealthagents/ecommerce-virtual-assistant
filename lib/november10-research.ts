@@ -76,7 +76,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       }
     ]
@@ -157,7 +157,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       }
     ]
@@ -238,7 +238,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -319,7 +319,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       }
     ]
@@ -400,7 +400,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Government Accountability Office — internal control standards",
+        "label": "U.S. Government Accountability Office - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       }
     ]
@@ -481,7 +481,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       }
     ]
@@ -562,7 +562,7 @@ export const november10ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       }
     ]

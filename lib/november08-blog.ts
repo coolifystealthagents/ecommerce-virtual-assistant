@@ -87,7 +87,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-an-asin-variation-merge-before-republish",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -178,7 +178,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-supplier-backorder-substitution",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -269,7 +269,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-handle-a-chargeback-response-before-the-deadline",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -360,7 +360,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-sponsored-placement-invoice",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -451,7 +451,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-bundle-inventory-decrement",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -542,7 +542,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommercevirtualassistant-verify-a-replacement-order-for-an-undelivered-parcel",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/returns-support",
     "internalSibling": "/blog/ecommercevirtualassistant-control-a-catalog-title-rewrite-before-indexing",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -724,7 +724,7 @@ export const november08BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommercevirtualassistant-reconcile-a-marketplace-settlement-hold",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }

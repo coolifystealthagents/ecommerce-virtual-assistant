@@ -76,15 +76,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -92,7 +92,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -181,11 +181,11 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.pcisecuritystandards.org/"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -193,7 +193,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -278,15 +278,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -294,7 +294,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -379,15 +379,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -395,7 +395,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -480,15 +480,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -496,7 +496,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -581,15 +581,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -597,7 +597,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
@@ -682,15 +682,15 @@ export const november06ResearchPosts: ResearchPost[] = [
     ],
     "sources": [
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+        "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
         "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
       },
       {
-        "label": "U.S. Small Business Administration — manage your business",
+        "label": "U.S. Small Business Administration - manage your business",
         "url": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -698,7 +698,7 @@ export const november06ResearchPosts: ResearchPost[] = [
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "GAO — internal control standards",
+        "label": "GAO - internal control standards",
         "url": "https://www.gao.gov/greenbook"
       },
       {

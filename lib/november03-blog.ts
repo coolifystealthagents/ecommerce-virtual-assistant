@@ -87,7 +87,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-reconcile-a-marketplace-settlement-before-the-payout-is-booked",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -178,7 +178,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-audit-a-product-variant-change-before-it-reaches-the-storefront",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -360,7 +360,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/inventory-admin",
     "internalSibling": "/blog/ecommerce-handle-a-chargeback-response-with-a-complete-evidence-packet",
     "source": {
-      "label": "U.S. Small Business Administration — manage your business",
+      "label": "U.S. Small Business Administration - manage your business",
       "url": "https://www.sba.gov/business-guide/manage-your-business"
     }
   },
@@ -451,7 +451,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/order-management",
     "internalSibling": "/blog/ecommerce-keep-a-supplier-backorder-note-tied-to-the-customer-promise",
     "source": {
-      "label": "U.S. Federal Trade Commission — data security guidance",
+      "label": "U.S. Federal Trade Commission - data security guidance",
       "url": "https://www.ftc.gov/business-guidance/privacy-security/data-security"
     }
   },
@@ -542,7 +542,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/product-listing-support",
     "internalSibling": "/blog/ecommerce-review-a-shipping-label-exception-before-reshipment",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -633,7 +633,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/marketplace-support",
     "internalSibling": "/blog/ecommerce-standardize-a-product-photo-handoff-for-the-listing-team",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   },
@@ -724,7 +724,7 @@ export const november03BlogPosts: BlogPost[] = [
     "internalService": "/services/customer-support",
     "internalSibling": "/blog/ecommerce-control-a-discount-code-change-before-a-campaign-launch",
     "source": {
-      "label": "U.S. Federal Trade Commission — advertising and marketing guidance",
+      "label": "U.S. Federal Trade Commission - advertising and marketing guidance",
       "url": "https://www.ftc.gov/business-guidance/advertising-marketing"
     }
   }
