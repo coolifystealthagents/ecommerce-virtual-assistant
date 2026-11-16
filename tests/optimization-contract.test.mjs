@@ -52,6 +52,15 @@ test('article pages use one responsive table of contents implementation', () => 
   assert.match(css, /article-layout \.sidebar-toc \{ display: none/);
 });
 
+test('mobile article details stack the table of contents and preserve complete hero covers', () => {
+  const css = read('app/globals.css');
+  assert.match(css, /content-wrap\.article-layout \{ display: block; grid-template-columns: none; width: 100%/);
+  assert.match(css, /content-wrap\.article-layout > \.mobile-toc \{ display: block; width: 100%; min-width: 0; max-width: none/);
+  assert.match(css, /content-wrap\.article-layout > \.prose \{ width: 100%; min-width: 0; max-width: none/);
+  assert.match(css, /article-header \.split-hero-media \{ min-height: 0; aspect-ratio: 1\.9 \/ 1/);
+  assert.match(css, /article-header \.article-hero \{ object-fit: contain !important/);
+});
+
 test('new hero asset references resolve inside public', () => {
   const assets = [
     'public/images/commerce/home-ecommerce-packing.webp',
