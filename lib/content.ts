@@ -34,6 +34,7 @@ import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
+  ...november16BlogPosts,
   ...november03BlogPosts,
   ...november04BlogPosts,
   ...november05BlogPosts,
@@ -442,6 +443,7 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const researchPosts: ResearchPost[] = [
+  ...november16ResearchPosts,
   ...november03ResearchPosts,
   ...november04ResearchPosts,
   ...november05ResearchPosts,
