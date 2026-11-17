@@ -5,6 +5,7 @@ import { november05BlogPosts } from './november05-blog';
 import { november06BlogPosts } from './november06-blog';
 import { november09BlogPosts } from './november09-blog';
 import { november10BlogPosts } from './november10-blog';
+import { november17BlogPosts } from './november17BlogPosts';
 import { november16BlogPosts } from './november16BlogPosts';
 import { november11BlogPosts } from './november11-blog';
 import { november08BlogPosts } from './november08-blog';
@@ -17,6 +18,7 @@ import { november05ResearchPosts } from './november05-research';
 import { november06ResearchPosts } from './november06-research';
 import { november09ResearchPosts } from './november09-research';
 import { november10ResearchPosts } from './november10-research';
+import { november17ResearchPosts } from './november17ResearchPosts';
 import { november16ResearchPosts } from './november16ResearchPosts';
 import { november11ResearchPosts } from './november11-research';
 import { november08ResearchPosts } from './november08-research';
@@ -34,6 +36,7 @@ import { october25BlogBatch } from './october25Blog';
 import { october25ResearchBatch } from './october25Research';
 
 export const blogPosts: BlogPost[] = [
+  ...november17BlogPosts,
   ...november16BlogPosts,
   ...november03BlogPosts,
   ...november04BlogPosts,
@@ -443,6 +446,7 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export const researchPosts: ResearchPost[] = [
+  ...november17ResearchPosts,
   ...november16ResearchPosts,
   ...november03ResearchPosts,
   ...november04ResearchPosts,
