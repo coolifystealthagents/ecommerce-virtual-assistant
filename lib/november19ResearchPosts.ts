@@ -66,7 +66,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "FTC: Mail, Internet, or Telephone Order Merchandise Rule",
@@ -156,7 +155,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "FTC: Consumer refunds and returns guidance",
@@ -246,7 +244,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "NIST Cybersecurity Framework",
@@ -336,7 +333,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "FTC: Mail, Internet, or Telephone Order Merchandise Rule",
@@ -426,7 +422,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "FTC: Consumer refunds and returns guidance",
@@ -516,7 +511,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "NIST Cybersecurity Framework",
@@ -606,7 +600,6 @@ export const november19ResearchPosts: ResearchPost[] = [
         ]
       }
     ],
-    "faq": [],
     "sources": [
       {
         "label": "FTC: Mail, Internet, or Telephone Order Merchandise Rule",
