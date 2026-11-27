@@ -29,12 +29,12 @@ export function ReviewsMarquee({ reviews }: { reviews: Review[] }) {
     };
     const pause = () => { paused = true; };
     const play = () => { paused = false; last = performance.now(); };
-    frame.addEventListener('pointerenter', pause);
-    frame.addEventListener('pointerleave', play);
+    
+    
     frame.addEventListener('focusin', pause);
     frame.addEventListener('focusout', play);
     animation = requestAnimationFrame(step);
-    return () => { cancelAnimationFrame(animation); frame.removeEventListener('pointerenter', pause); frame.removeEventListener('pointerleave', play); frame.removeEventListener('focusin', pause); frame.removeEventListener('focusout', play); };
+    return () => { cancelAnimationFrame(animation);   frame.removeEventListener('focusin', pause); frame.removeEventListener('focusout', play); };
   }, []);
 
   return <div className="reviews-viewport" ref={viewport} aria-label="StealthAgents reviews">
